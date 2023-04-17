@@ -1,2 +1,3 @@
-# raisetech-cloudformation
-CloudFormation課題用。README作成練習。
+# Railsアプリケーションの実行環境構築　　
+１．構成図
+![]()
