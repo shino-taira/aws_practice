@@ -1,4 +1,4 @@
-# Cloudformation
+# Cloudformationを使ったリソース構築とサーバーテストの実行
 Cloudformationを使用して、AWSリソースの作成からServerspecでのテスト実装。以下のツールを使用しています。
 * Cloudformation
 * Serverspec
