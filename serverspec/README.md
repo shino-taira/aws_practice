@@ -1,9 +1,19 @@
 # Serverspec
-## 概要
-Serverspecを使用してサーバーの実行テストを行う
+### 概要
+* Serverspecを使用してサーバーの実行テストを行い、Nginxのインストール・起動を確認する
+
+## ファイル説明
+* spec/lalala/sample_spec.rb
+  * 実際にテストする内容を記載するファイル
+* spec/spec_helper.rb
+  * テストに関する全般的な設定ファイル
+* Rakefile
+  * テスト実行のためのタスク定義ファイル
+* .rspec
+  * RSpecの挙動を設定するファイル
 
 ## テスト内容
-* sample_spec.rbファイルにテスト項目を記載
+* /sample_spec.rb ファイルにテスト項目を記述
   * Nginxのインストールを確認
   * 80番ポートの開放を確認
   * HTTPステータスコードが正常(200)であることを確認
