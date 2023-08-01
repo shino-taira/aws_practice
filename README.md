@@ -20,7 +20,11 @@
 * SSH接続を使用してEC2と接続
 * EC2にNginxをインストール
   * Nginxのインストールコマンド
-    * `$ sudo dnf install nginx`
+    ```
+    $ sudo dnf install nginx
+    $ nginx -v
+      nginx version: nginx/1.22.1
+    ```
   * Nginx起動確認
 ![NginxActive](NginxActive.png)
 * Serverspecを使ったサーバーテストを実行し、サーバーの稼働状況を確認
