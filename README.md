@@ -18,9 +18,9 @@
   * RDS
   * S3
 * SSH接続を使用してEC2と接続
-* WebサーバーをNginxに設定
-  * EC2にNginxをインストール
-* Serverspecを使用してサーバーテストを実行し、Nginxのインストール・起動を確認
-  * Serverspecをインストール
-  * ファイルにテスト項目を記述
-  * Serverspecテスト実行
+* EC2にNginxをインストール
+  * Nginxのインストールコマンド
+    * `$ sudo dnf install nginx`
+  * Nginx起動確認
+![NginxActive](NginxActive.png)
+* Serverspecを使ったサーバーテストを実行し、サーバーの稼働状況を確認
