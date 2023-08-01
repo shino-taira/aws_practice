@@ -50,9 +50,9 @@ Select number: 2
  + Rakefile
  + .rspec
 ```
-* Select a backend type: について
-今回はServerspecをインストールしたサーバ自身をテストするため、`2) Exec (local)`　を選択。
-ネットワーク経由で外部の複数のサーバに対してもテストを行う場合は、`1) SSH`　を選択する
+`Select a backend type:` について
+* 今回はServerspecをインストールしたサーバ自身をテストするため、`2) Exec (local)`　を選択。
+* ネットワーク経由で外部の複数のサーバに対してもテストを行う場合は、`1) SSH`　を選択する
 
 ### テスト項目記述
 * [/sample_spec.rb](https://github.com/shino-taira/aws_practice/blob/main/serverspec/spec/lalala/sample_spec.rb)ファイルにテスト項目を記述
